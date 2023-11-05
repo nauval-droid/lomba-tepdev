@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Styles garis navbar */
+        .line {
+            border-top: 35px solid #164863; 
+            width: 100%;
+            position: absolute;
+            top: 100px; /* atas bawah */
+        }
+
+        /* Styles Profil Bulet Tepdew */
+        .profile-image {
+            background-color: #9BBEC8;  /* BGC */ 
+            width: 100px; /* Besar ukuran */
+            height: 100px; /* sama aja */
+            border-radius: 50%; /* Kebulatan Gambar */
+            position: absolute;
+            top: 70px; /* Atas Bawah */
+            left: 850px; /* Kiri kanan */
+        }
+
+        /* Base styles buat nav bar */
+        .navbar {
+            background-color: transparent;
+            overflow: hidden;
+            position: absolute;
+            top: 95px; /* posisi vertikal search bar */
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 18px;
+            color: #DDF2FD;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Styles ikon(tol) */
+        .navbar i {
+            margin-right: 5px;
+        }
+
+        /* Styles search bar */
+        .search-container {
+            float: right;
+        }
+
+        .search-box {
+            padding: 5px;
+            background-color: #427D9D; /* BGC */
+            border: none;
+            border-radius: 5px;
+        
+        }
+
+        .search-button {
+            background-color: #427D9D; /* BGC */
+            border: none;
+            color: #DDF2FD; /* TC */
+            border-radius: 5px;
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="Foto Dokum Tepdev 2.jpeg">
+    <!-- BG tepdew -->
+</div>
+
+<!-- Garis Navbar -->
+<div class="line"></div>
+
+<!-- PFP Tepdew bulet -->
+<div class="profile-image">
+    <!-- PFP Tepdew -->
+</div>
+
+<div class="navbar">
+    <a href="#"><i class="fa fa-trophy"></i> Leaderboard</a>
+    <a href="#"><i class="fa fa-camera"></i> Dokumentasi</a>
+    <a href="#"><i class="fa fa-users"></i> Organizination Structure</a>
+    <a href="#"><i class="fa fa-clock"></i> Timeline</a>
+
+    <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search...">
+        <button class="search-button">Search</button>
+    </div>
+</div>
+
+<!-- Konten -->
+
+</body>
+</html>
 
